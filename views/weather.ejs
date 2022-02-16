@@ -20,7 +20,7 @@
     <video autoplay muted loop id="myVideo">
         <source src=<%=video_src%> type="video/mp4">
     </video>
-    
+
     <div class="Container">
         <div class="inner-container">
             <div class="row">
@@ -29,11 +29,27 @@
                     <h1 class="weather"><%=Curr_Wea%></h1>
                     <p class="city"><%=Curr_City%></p>
                     <h1><%=Curr_Temp%>°C</h1>
+                    </br>
+                    <form action="/weather" method="post" autocomplete="off">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="form-floating mb-3">
+                                    <input type="search" class="form-control" id="floatingInput" name="city" autocomplete="off">
+                                    <label for="floatingInput">City Name</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <button type="submit" class="btn btn-outline-light btn-lg main-btn">Get Weather <i
+                                        class="fa-regular fa-location-arrow"></i></button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-lg-6 text-end">
                     <div class="row ">
                         <div class="col-lg-9 text-end">
-                            <img src="https://img.icons8.com/external-those-icons-fill-those-icons/48/000000/external-humidity-weather-those-icons-fill-those-icons.png"/>
+                            <img
+                                src="https://img.icons8.com/external-those-icons-fill-those-icons/48/000000/external-humidity-weather-those-icons-fill-those-icons.png" />
                         </div>
                         <div class="col-lg-3 text-start">
                             <h1 class="right-content">Humidity</h1>
@@ -42,7 +58,7 @@
                     </div>
                     <div class="row ">
                         <div class="col-lg-9 text-end">
-                            <img src="https://img.icons8.com/ios-glyphs/60/000000/pressure.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/60/000000/pressure.png" />
                         </div>
                         <div class="col-lg-3 text-start">
                             <h1 class="right-content">Air Pressure</h1>
@@ -51,7 +67,7 @@
                     </div>
                     <div class="row ">
                         <div class="col-lg-9 text-end">
-                            <img src="https://img.icons8.com/ios-filled/50/000000/invisible.png"/>
+                            <img src="https://img.icons8.com/ios-filled/50/000000/invisible.png" />
                         </div>
                         <div class="col-lg-3 text-start">
                             <h1 class="right-content">Visibility</h1>
@@ -60,7 +76,7 @@
                     </div>
                     <div class="row ">
                         <div class="col-lg-9 text-end">
-                            <img src="https://img.icons8.com/ios-glyphs/60/000000/wind--v1.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/60/000000/wind--v1.png" />
                         </div>
                         <div class="col-lg-3 text-start">
                             <h1 class="right-content">Wind Speed</h1>
