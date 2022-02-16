@@ -62,8 +62,8 @@ right:0;
 }
 
 .icon-3{
-    width: 100px;
-    height: 100px;  
+    width: 80px;
+    height: 80px;  
     margin: 0;
     margin-left: -25%;
     margin-top: 0; 
@@ -104,8 +104,9 @@ right:0;
     margin-left: 10%;
 }
 
+
 .container-s-data{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0;
     margin-left: 5%;
 }
