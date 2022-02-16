@@ -1,0 +1,119 @@
+body {
+    background-attachment: fixed;
+    font-family: "Redressed";
+    
+}
+
+#myVideo {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+}
+
+
+.Container {
+position: absolute;
+background-color: rgba(255, 255, 255, .15);  
+backdrop-filter: blur(5px);
+height: 100vh;
+width: 100%;
+margin: 0 0;
+top:0;
+left:0;
+bottom:0;
+right:0;
+}
+
+.container-s{
+    /* position: absolute; */
+    background-color: rgba(255, 255, 255, .0002);  
+    backdrop-filter: blur(5px);
+    min-height: 250px;
+    min-width: 100%;
+    margin: 0 0;
+    border-radius: 10%;
+    /* top:0;
+    left:0;
+    bottom:0;
+    right:0; */
+}
+
+
+.container:before {
+    background: inherit;
+}
+
+.inner-container{
+    margin: 3% 3%;
+}
+
+.icon{
+    margin: -2% -2%;
+    width: 150px;
+    height: 150px;
+}
+
+.icon-2{
+    margin-right: -2%; 
+    width: 100px;
+    height: 100px;   
+}
+
+.icon-3{
+    width: 100px;
+    height: 100px;  
+    margin: 0;
+    margin-left: -25%;
+    margin-top: 0; 
+}
+
+
+.weather{
+    font-size: 3.5rem;
+    margin:0 ;
+    font-weight: 300;
+}
+
+.city{
+    margin: 0 ;
+    font-size: 1.5rem;
+}
+
+.right-content{
+    /* margin-left: -3%; */
+    padding: 0px;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.right-content-2{
+    padding: 0px;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.date{
+    font-size: 1rem;
+    padding-right: 10%;
+}
+
+.temp-f{
+    font-size: 3rem;
+    margin-left: 10%;
+}
+
+.container-s-data{
+    font-size: 1.5rem;
+    margin: 0;
+    margin-left: 5%;
+}
+
+.fa-regular { font-family: 'FontAwesome' !important; }
+
+.daily_wea{
+    margin-left: 10%;
+    margin-top: 0;
+    font-size: 2rem;
+}
